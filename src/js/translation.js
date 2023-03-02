@@ -210,8 +210,8 @@ export const langArr = {
     en: 'Here will be your list of movies. You can fill them',
   },
   'movies-list-library-2': {
-    ua: 'ГОЛОВНІЙ',
-    en: 'HOME',
+    ua: 'головній',
+    en: 'home',
   },
   'movies-list-library-3': {
     ua: 'сторінці',

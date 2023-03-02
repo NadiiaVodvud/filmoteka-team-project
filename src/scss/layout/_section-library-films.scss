@@ -43,8 +43,7 @@
 }
 
 .library-empty__link {
-  font-family: Roboto, 'sans-serif';
-  transform: scale(1);
+  font-family: Lobster, 'cursive';
   transition: transform $transitionDuration $cubic,
     text-shadow $transitionDuration $cubic;
   font-size: 14px;

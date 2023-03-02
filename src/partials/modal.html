@@ -1,6 +1,3 @@
-<!-- Класи "overlay", "modal", "modal__close-btn" і "modal__close-icon" загальні для всіх модалок. Щоби додати унікальні стилі для конкретної модалки, присвоюємо елементам додаткові класи на свій розсуд і описуємо стилі по цих селекторах. Також ці додаткові класи використовуємо при створенні нового екземпляра класу модалки. -->
-<!-- Модалка картки фільму -->
-<!-- Модалка -->
 <div class="overlay overlay__log-in">
   <div class="modal modal__log-in">
     <button type="button" class="modal__close-btn modal__log-in--close-btn">
@@ -21,21 +18,8 @@
       </svg>
     </button>
     <include src="./partials/modal-film.html"></include>
-    <!-- Сюди інджектимо розмітку контенту модалки modal-film.html-->
   </div>
 </div>
-
-<!-- <div class="overlay">
-  <div class="modal">
-    <button type="button" class="modal__close-btn">
-      <svg class="modal__close-icon" width="30" height="30">
-        <use href="./images/sprite.svg#close"></use>
-      </svg>
-    </button> -->
-
-    <!-- Сюди інджектимо розмітку контенту модалки modal-team.html -->
-  <!-- </div>
-</div> -->
 
 <!-- <div class="overlay trailer-modal-overlay">
   <div class="modal trailer-modal">
@@ -44,24 +28,18 @@
         <use href="./images/sprite.svg#close"></use>
       </svg>
     </button>
-    
-    Сюди інджектимо розмітку контенту модалки modal-trailer.html -->
+    Сюди інджектимо розмітку контенту модалки <include src="./partials/modal-film.html"></include>  -->
 <!-- </div>
 </div> -->
 
-
-
 <div class="overlay team-modal-overlay">
   <div class="modal team-modal">
+    <button type="button" class="modal__close-btn team-modal-close">
+      <svg class="modal__close-icon" width="30" height="30">
+        <use href="./images/sprite.svg#close"></use>
+      </svg>
+    </button>
 
-      <button type="button" class="modal__close-btn team-modal-close">
-          <svg class="modal__close-icon" width="30" height="30">
-              <use href="./images/sprite.svg#close"></use>
-          </svg>
-      </button>
-
-      <include src="./partials/modal-team.html"></include>
-
+    <include src="./partials/modal-team.html"></include>
   </div>
-
 </div>
